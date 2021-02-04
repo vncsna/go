@@ -1,0 +1,87 @@
+Go
+=========================================
+autosize: true
+transition-speed: slow
+
+
+
+
+Membros
+=========================================
+type: sub-section
+</br>
+Michel Carvalho </br>
+Vinícius Aguiar
+
+Matemática Aplicada e Computacional - UNICAMP
+
+
+Problema de agendamento de enfermeiras
+=========================================
+<!-- O Problema de alocação de enfermeiras consiste em uma maneira ideal de atribuir enfermeiras a turnos, respeitando um conjunto de restrições que as soluções válidas devem seguir. Verificamos na literatura o uso de algoritmos genéticos para a solução desse problema. -->
+Trata-se da alocação de enfermeiras em turnos de acordo com algumas restrições impostas pelo ambiente de trabalho e preferências pessoais, como:
+- Assegurar que os enfermeiros presentes possam cobrir a exigência do turno
+- Agendar os dias e/ou noites em que uma enfermeira trabalha.
+- Satisfazer contratos de trabalho e ter um horário justo.
+- Levar em conta as preferências de enfermeiros quanto possível.
+
+
+Alocação de voluntários da CPM
+=========================================
+As restrições e preferências para alocação dos voluntários são:
+- Balancear o comprometimento das turmas.
+- Equilibrar o número de voluntários alocados por turma.
+- Manter o nível de inglês dos voluntários superior ao de seus alunos.
+- Respeitar as preferências de período, turma e faixa etária.
+- Conciliar voluntários que devem ser alocados na mesma escala.
+- Considerar a proporção de veteranos e calouros, homens e mulheres.
+
+Algoritmos Genéticos
+=========================================
+![](ga1.jpg)
+
+AG Fluxograma
+=========================================
+![](ga2.jpg)
+
+Instalação
+=========================================
+
+```r
+# 1. Instalação do RStudio
+
+# 2. Instalação das bibliotecas
+install.packages(c("memoise", "gsubfn", "GA"))
+install.packages(c("shinythemes", "shiny", "devtools"))
+devtools::install_github('rstudio/DT')
+
+# 2. Ou acesso por
+https://vnaguiar.shinyapps.io/Go2018/
+  
+# 3. Execução
+```
+<img style="margin-left: 70px" src="runapp.png">
+
+
+User Experience Input
+=========================================
+![](ux.input.png)
+
+UX Algoritmo Genético
+=========================================
+![](ux.ga.png)
+
+UX Voluntários
+=========================================
+<!-- Mostra as preferências que foram satisfeitas -->
+![](ux.vol.png)
+
+UX Turmas
+=========================================
+![](ux.tur.png)
+
+
+=========================================
+type: section
+<br><br>
+<h1 style="text-align: center">Obrigado</h1>
